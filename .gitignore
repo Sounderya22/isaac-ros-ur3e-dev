@@ -1,0 +1,23 @@
+# ROS 2 build/install/log directories
+build/
+install/
+log/
+
+# Python cache & test files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ROS 2 package-specific or auto-generated dependencies
+isaac_ros_assets/
+
+# Temporary/Large generated files
+*.pdf
+*.gv
+target.png
+overlay_dataset_2026-07/
+calibration_validation_dataset_after_calibration/
+
+# OS-specific files
+.DS_Store
+.vscode/

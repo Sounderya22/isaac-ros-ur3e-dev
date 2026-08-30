@@ -1,0 +1,34 @@
+[
+    {
+        "parent_frame": "world",
+        "child_frame": "camera_1_link",
+        "translation": {
+            "x": 0.430779,
+            "y": 0.740722,
+            "z": 0.550364
+        },
+        "rotation": {
+            "x": -0.285854,
+            "y": -0.114417,
+            "z": 0.887148,
+            "w": -0.343751
+        },
+        "imager_used": "rgb_realsense"
+    },
+    {
+        "parent_frame": "world",
+        "child_frame": "camera_1_link",
+        "translation": {
+            "x": 0.434988,
+            "y": 0.747898,
+            "z": 0.543758
+        },
+        "rotation": {
+            "x": -0.284947,
+            "y": -0.116572,
+            "z": 0.888105,
+            "w": -0.341299
+        },
+        "imager_used": "rgb_realsense"
+    }
+]

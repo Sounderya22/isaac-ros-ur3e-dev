@@ -1,0 +1,11 @@
+camera_type: REALSENSE
+num_cameras: 2
+workflow_type: PICK_AND_PLACE
+
+ur_type: ur3e
+gripper_type: robotiq_2f_140
+use_sim_time: 'false'
+headless: 'false'
+setup: ur3e_manilab
+robot_ip: 192.168.77.23
+log_level: error

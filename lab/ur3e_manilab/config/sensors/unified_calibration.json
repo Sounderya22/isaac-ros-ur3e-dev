@@ -1,0 +1,238 @@
+{
+  "world_to_base_link": {
+    "parent_frame": "world",
+    "child_frame": "base_link",
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "source": "tf2_echo, 2026-07-14"
+  },
+  "camera_1": {
+    "serial_no": "938422075962",
+    "intrinsics": {
+      "1280x720": {
+        "width": 1280,
+        "height": 720,
+        "fx": 921.4649658203125,
+        "fy": 920.53369140625,
+        "cx": 635.275390625,
+        "cy": 357.6933288574219
+      },
+      "640x480": {
+        "width": 640,
+        "height": 480,
+        "fx": 614.3099975585938,
+        "fy": 613.6891479492188,
+        "cx": 316.85028076171875,
+        "cy": 238.46221923828125,
+        "note": "policy/data-collection mode; Isaac Sim cameras must use this resolution and intrinsics"
+      }
+    },
+    "extrinsics": {
+      "parent_frame": "world",
+      "child_frame": "camera_1_link",
+      "translation": {
+        "x": 0.430779,
+        "y": 0.740722,
+        "z": 0.550364
+      },
+      "rotation": {
+        "x": -0.285854,
+        "y": -0.114417,
+        "z": 0.887148,
+        "w": -0.343751
+      }
+    },
+    "optical_offset": {
+      "parent_frame": "camera_1_link",
+      "child_frame": "camera_1_color_optical_frame",
+      "translation": {
+        "x": -0.0,
+        "y": 0.015,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.498,
+        "y": 0.502,
+        "z": -0.495,
+        "w": 0.504
+      }
+    },
+    "world_to_optical": {
+      "parent_frame": "world",
+      "child_frame": "camera_1_color_optical_frame",
+      "translation": {
+        "x": 0.440909,
+        "y": 0.72966,
+        "z": 0.550267
+      },
+      "rotation": {
+        "x": 0.361766,
+        "y": 0.813914,
+        "z": -0.417,
+        "w": -0.181056
+      }
+    },
+    "usd_convention": {
+      "parent_frame": "world",
+      "child_frame": "camera_1_color_optical_frame",
+      "translation": {
+        "x": 0.440909,
+        "y": 0.72966,
+        "z": 0.550267
+      },
+      "rotation_wxyz": {
+        "w": -0.3617658348018399,
+        "x": -0.18105591732192056,
+        "y": -0.41699980957958244,
+        "z": -0.8139136283313101
+      }
+    }
+  },
+  "camera_2": {
+    "serial_no": "944622074035",
+    "intrinsics": {
+      "1280x720": {
+        "width": 1280,
+        "height": 720,
+        "fx": 920.4202270507812,
+        "fy": 919.380126953125,
+        "cx": 629.4402465820312,
+        "cy": 356.7788391113281
+      },
+      "640x480": {
+        "width": 640,
+        "height": 480,
+        "fx": 613.613525390625,
+        "fy": 612.9201049804688,
+        "cx": 312.96014404296875,
+        "cy": 237.85255432128906,
+        "note": "policy/data-collection mode; Isaac Sim cameras must use this resolution and intrinsics"
+      }
+    },
+    "extrinsics": {
+      "parent_frame": "wrist_3_link",
+      "child_frame": "camera_2_link",
+      "translation": {
+        "x": 0.0165093,
+        "y": -0.061307,
+        "z": 0.0544068
+      },
+      "rotation": {
+        "x": 0.327738,
+        "y": -0.327114,
+        "z": 0.652723,
+        "w": 0.599615
+      }
+    },
+    "flange_extrinsics": {
+      "parent_frame": "flange",
+      "child_frame": "camera_2_link",
+      "translation": {
+        "x": 0.0544068,
+        "y": 0.0165093,
+        "z": -0.061307
+      },
+      "rotation": {
+        "x": 0.953594,
+        "y": -0.026242,
+        "z": 0.298743,
+        "w": -0.026866
+      }
+    },
+    "optical_offset": {
+      "parent_frame": "camera_2_link",
+      "child_frame": "camera_2_color_optical_frame",
+      "translation": {
+        "x": -0.0,
+        "y": 0.015,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.501,
+        "y": 0.498,
+        "z": -0.498,
+        "w": 0.502
+      }
+    },
+    "flange_to_optical": {
+      "parent_frame": "flange",
+      "child_frame": "camera_2_color_optical_frame",
+      "translation": {
+        "x": 0.0538969,
+        "y": 0.0015516,
+        "z": -0.0623108
+      },
+      "rotation": {
+        "x": 0.356635,
+        "y": 0.298815,
+        "z": 0.6254,
+        "w": 0.626416
+      }
+    },
+    "usd_convention": {
+      "parent_frame": "flange",
+      "child_frame": "camera_2_color_optical_frame",
+      "translation": {
+        "x": 0.0538969,
+        "y": 0.0015516,
+        "z": -0.0623108
+      },
+      "rotation_wxyz": {
+        "w": -0.3566348051872209,
+        "x": 0.6264156578186612,
+        "y": 0.6253996583736537,
+        "z": -0.2988148367715435
+      }
+    }
+  },
+  "tcp_offset": {
+    "parent_frame": "flange",
+    "child_frame": "grasp_frame",
+    "translation": {
+      "x": 0.2,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5,
+      "w": 0.5
+    }
+  },
+  "dataset_ee_frame": {
+    "frame": "tool0",
+    "active_controller_tcp": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+    "verified": "2026-07-13, RTDE getActualTCPPose vs TF base->tool0, agreement <2mm",
+    "note": "URDF grasp_frame (0.2m) is NOT in the action labels; pendant Move-screen z offset was a display Feature, not a TCP"
+  },
+  "grasp_point_offset": {
+    "parent_frame": "tool0",
+    "flange_to_fingertip_m": 0.243,
+    "flange_to_pad_midpoint_m": 0.214,
+    "note": "Hand-E body 0.110 (spec) + mount+finger 0.133 (photo-verified); fingers are long fin-ray blades, contact region well above tip"
+  },
+  "gripper_convention": {
+    "closed": {
+      "rPR": 255,
+      "dataset_label": 0.005,
+      "physical_width_m": 0.0185
+    },
+    "open": {
+      "rPR": 0,
+      "dataset_label": 0.084,
+      "physical_width_m": 0.0720
+    },
+    "note": "Robotiq rPR register inverted vs width (0=open/widest, 255=closed). Dataset label runs with width. Hand-E 50mm jaw stroke; tip widths include fin-ray flex, so tip-vs-rPR is approx-linear only. Two-state symbolic use in practice.",
+    "verified": "rPR mapping from collection driver, widths measured 2026-07-14"
+  }
+}

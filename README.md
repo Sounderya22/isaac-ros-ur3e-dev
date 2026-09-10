@@ -9,8 +9,7 @@ Use this repo to:
 - Record joint waypoints and capture a dual-camera overlay dataset
 - Run Isaac for Manipulation workflows (`ur3e_manilab`)
 
-Remote: [Sounderya22/isaac-ros-ur3e-dev](https://github.com/Sounderya22/isaac-ros-ur3e-dev)
-
+<!--
 ## Hardware
 
 | Item | Value |
@@ -23,6 +22,7 @@ Remote: [Sounderya22/isaac-ros-ur3e-dev](https://github.com/Sounderya22/isaac-ro
 | Lab setup name | `ur3e_manilab` |
 
 `world` and `base_link` are coincident (identity transform).
+-->
 
 ## Layout
 
